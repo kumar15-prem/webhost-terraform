@@ -1,0 +1,15 @@
+create EC2 insctance 
+
+1. login AWS Console
+Serach EC2 
+- Create EC2 - Name: demo - AMI: Ubuntu - Keypair: None - Network Security - VPC: select default VPC  - Ibound - Allow http - create
+- EC2 - demo - click - Connect
+
+Create IAM 
+
+2. Search IAM - user - createuser - username: admin - checkin optional - select i want create an iam user - Autogenerate password - permission option - Attach policy Directly - AmazonEC2fullAccess - Next - Create user 
+back to user click admin and Create Access key & Secret key 
+
+Create keypair
+
+3. EC2 Dashboard - Keypair - Create - name: demo - create
